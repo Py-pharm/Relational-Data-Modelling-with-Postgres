@@ -141,9 +141,6 @@ This is what a songs file looks like:
 
 <a id="sw_reqs"></a>
 
-## Software Requirements
-
-This project requires Python 3.6.x and the necessary libraries are mentioned in _requirements.txt._
 
 <a id="conclusion"></a>
 
