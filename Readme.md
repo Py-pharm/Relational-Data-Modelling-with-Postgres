@@ -11,10 +11,7 @@
 - [Schema for Song Play Analysis](#schema)
   - [Fact Table](#fact)
   - [Dimension Tables](#dim)
-- [Process Song Data](#p_song)
-- [Process Log Data](#p_log)
 - [Files](#files)
-- [Software Requirements](#sw_reqs)
 - [Conclusion](#conclusion)
 
 ***
@@ -118,9 +115,6 @@ In order to create these tables, I performed some transformation in the data whi
 
 <a id='p_song'></a>
 
-## Process Song Data
-
-I performed ETL on the files in *song_data* directory to create two dimensional tables: `songs` table and `artists` table.
 
 This is what a songs file looks like:
 
