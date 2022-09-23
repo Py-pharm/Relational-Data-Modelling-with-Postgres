@@ -114,13 +114,13 @@ on song play analysis. This includes the following tables.
 5. **time** - timestamps of records in **songplays** broken down into specific units
     - *start_time, hour, day, week, month, year, weekday*
 
-In order to create these tables, all we need to do is perform some transformation in the data which are already in song_data and log_data directory.
+In order to create these tables, I performed some transformation in the data which are already in song_data and log_data directory.
 
 <a id='p_song'></a>
 
 ## Process Song Data
 
-We will perform ETL on the files in *song_data* directory to create two dimensional tables: `songs` table and `artists` table.
+I performed ETL on the files in *song_data* directory to create two dimensional tables: `songs` table and `artists` table.
 
 This is what a songs file looks like:
 
