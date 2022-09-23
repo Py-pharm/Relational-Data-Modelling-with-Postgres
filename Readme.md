@@ -7,7 +7,7 @@
 - [Description](#describe)
 - [Data](#data)
   - [Song Dataset](#song)
-  - [Log Dataset](#log)
+  - [Log Dataset](#log_data)
 - [Schema for Song Play Analysis](#schema)
   - [Fact Table](#fact)
   - [Dimension Tables](#dim)
