@@ -81,22 +81,6 @@ data/log_data/2018/11/2018-11-12-events.json
 data/log_data/2018/11/2018-11-13-events.json
 </pre>
 
-And below is an example of what the data in a log file, _2018-11-12-events.json_,
-looks like.
-
-![log-data](./img/log-data.png)
-
-If you would like to look at the json data within log_data files, you will need to create a Pandas df to read the data. Remember to first import _json_ and _pandas_ libraries.
-
-```python
-df = pd.read_json(filepath, lines=True)
-```
-
-> Note: Make sure to set `lines= True` so that each line of the JSON file is read as a new row.
-
-For e.g., `df = pd.read_json('data/log_data/2018/11/2018-11-01-events.json', lines=True)` would read the data file _2018-11-01-events.json_
-
-Here is a helpful [video](https://www.youtube.com/watch?v=hO2CayzZBoA) from **Udacity's Data Wrangling course** talking about the JSON files format.
 
 <a id="schema"></a>
 
