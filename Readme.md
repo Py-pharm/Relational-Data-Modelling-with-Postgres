@@ -31,17 +31,15 @@ Currently, they don't have an easy way to query their data, which resides in a
 with JSON metadata** on the songs in their app.
 
 They need a data engineer to create a **Postgres** database with tables designed
-to **optimize queries on song play analysis.** Our role is to create a **database
-schema** and **ETL pipeline** for this analysis. Then we'll test our database and ETL
-pipeline by running queries given by the analytics team from Sparkify and
-compare our results with their expected results.
+to **optimize queries on song play analysis.** My role is to create a **database
+schema** and **ETL pipeline** for this analysis. 
 
 <a id="describe"></a>
 
 ## Description
 
-In this project, We'll apply the concepts learned in data modeling with Postgres
-and build an ETL pipeline using Python. We will define **fact and dimension tables**
+In this project, I will apply the concepts of data modeling with Postgres
+and ETL pipeline using Python. I will define **fact and dimension tables**
 for a star schema for a particular analytic focus, and write an ETL pipeline
 that transfers data from files in two local directories into these tables in
 Postgres using **Python** and **SQL.**
